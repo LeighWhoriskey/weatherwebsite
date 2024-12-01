@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DailyStats</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="dailystats.js" type="text/javascript"></script>
+        <script src="Nav.js"></script>
+    </head>
+    <header >
+        <div id="NavBar">
+
+        </div>
+        <h1>Daily Stats</h1>
+        <p><a href="/getDailyStats">*</a></p>
+        <hr>
+
+    </header>
+    <body>
+        <label for="siteSelect">Site: </label>
+        <select id ="siteSelect" name="siteSelect">
+            <option>Choose a site...</option>
+        </select>
+        <label for="Date">Date: </label>
+        <input id="date" name="date" type="date">
+        <button type="button" id="getData">Get</button>
+        <div id="error">
+
+        </div>
+        <hr>
+        <div id="tableDiv">
+        </div>
+        <div id="ColumnGraphDiv">
+
+        </div>
+        <div id="LineGraphDiv">
+
+        </div>
+    </body>
+</html>
