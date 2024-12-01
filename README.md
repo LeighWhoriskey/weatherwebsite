@@ -18,11 +18,12 @@ Installation
 Clone the Repository:
 git clone https://github.com/LeighWhoriskey/weatherwebsite.git
 
-'''
+```
 Navigate to the Project Directory:
 cd weatherwebsite
 node index.js
-'''
+
+```
 
 Run Locally: Open index.html in your web browser to explore the application.
 Usage
