@@ -1,4 +1,4 @@
-### Weather Website 🌦️
+# Weather Website 🌦️
 A dynamic and interactive weather application designed specifically for Ireland. The application uses Leaflet.js for mapping and live data scraping from an API, enabling users to access accurate and real-time weather details without the need for an API key.
 
 ## Features
